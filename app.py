@@ -5,8 +5,8 @@ import os
 app = Flask(__name__)
 
 VERIFY_TOKEN = 'my_verify_token'  # puede ser lo que tú quieras
-ACCESS_TOKEN = 'TU_ACCESS_TOKEN_DE_META'
-PHONE_NUMBER_ID = 'TU_PHONE_NUMBER_ID'
+ACCESS_TOKEN = 'EAAJrWZC6YJlYBO6ZBTFZBXZBnac6mpBS15Lb4e8ZCd97fTgzJbHk4Ojtxo5czZAlFwJveXHZA8lyGZCiLNiROu5ZAGuIZCUsGQ3HraTdiGcTyOi15MFAIBeFYzZB0z3Ghq6MYyK5cZA6cTvjOyaMpDTcQgSadPZA4CHBCO4v9kbhbiqHIb7TvAhr6k2x9GM4DCkUEoAchVnWWpjpDG0brbYKZAwpCeUQG6D7oZAOmw9yewZD'
+PHONE_NUMBER_ID = '634123883116087'
 
 
 @app.route('/webhook', methods=['GET', 'POST'])
